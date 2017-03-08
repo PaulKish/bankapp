@@ -18,7 +18,7 @@ bankapp/
 
 # Instructions
 - Clone Repo into folder
-- Run composer install to install dependencies
+- Run `composer install` to install dependencies
 - Setup schema into a MySQL instance. Schema can be found in schema folder
 - Edit application/config/database.php to correspond to your db user/password
 - If on a bash enabled system run:
@@ -55,10 +55,10 @@ $ phpunit
 	- No parameters required
 - /deposit - allows depositing to account
 	- POST method only
-	- amount needed - send as form-data / e.g `$_POST['amount']` should contain a numeric value
+	- amount needed - send as form-data / e.g `<?php $_POST['amount'] ?>` should contain a numeric value
 - /withdraw - allows withdrawal
 	- POST method only
-	- amount needed - send as form-data / e.g `$_POST['amount']` should contain a numeric value
+	- amount needed - send as form-data / e.g `<?php $_POST['amount'] ?>` should contain a numeric value
 
 ## Response structure
 
