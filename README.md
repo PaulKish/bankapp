@@ -12,6 +12,8 @@ bankapp/
     └── codeigniter/
         └── framework/
             └── system/
+    ...
+└── schema/
 ```
 
 # Instructions
