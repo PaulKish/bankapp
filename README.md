@@ -40,6 +40,10 @@ $ cd /path/to/bankapp
 sh bin\server.sh
 ```
 
+- Or copy the folder your WAMP/XAMPP webroot dir then access it from:
+`http://localhost/bankapp/public 
+
+
 # Tests
 - Ensure you have PHPUnit setup in your system and is callable via phpunit on the terminal or cmd
 - To runs tests:
