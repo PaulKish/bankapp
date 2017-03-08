@@ -106,4 +106,4 @@ $ phpunit
 ## Misc
 - App is built on CodeIgniter 3.
 - Composer support is provided by [Composer Installer](https://github.com/kenjis/codeigniter-composer-installer)
-- PHPUnit support is by [Composer PHPUnit](https://github.com/kenjis/ci-phpunit-test)
+- PHPUnit support is by [CodeIgniter PHPUnit](https://github.com/kenjis/ci-phpunit-test)

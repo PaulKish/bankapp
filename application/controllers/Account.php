@@ -155,7 +155,7 @@ class Account extends CI_Controller {
 		// add transcaction info
 		$this->response['transaction'] = [
 			'type' => 'Deposit',
-			'amount' => $amount,
+			'amount' => (float)$amount,
 			'date' => date('Y-m-d')
 		];
 
@@ -276,7 +276,7 @@ class Account extends CI_Controller {
 		// add transcaction info
 		$this->response['transaction'] = [
 			'type' => 'Withdrawal',
-			'amount' => $amount,
+			'amount' => (float)$amount,
 			'date' => date('Y-m-d')
 		];
 
