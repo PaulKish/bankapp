@@ -1,5 +1,6 @@
 # Folder structure
 
+```
 bankapp/
 ├── application/
 ├── composer.json
@@ -11,7 +12,7 @@ bankapp/
     └── codeigniter/
         └── framework/
             └── system/
-
+```
 
 # Instructions
 - Clone Repo into folder
@@ -79,6 +80,20 @@ $ phpunit
 
 - Status can be False or Success depending on whether the process was successful
 - Message contains either Ok or the specifics of the error message
+- Account contains the balance
+- Transacation contains the transaction info
+
+```
+  "account": {
+    "balance": 30000
+  },
+  "transaction": {
+    "type": "Deposit",
+    "amount": "30000",
+    "date": "2017-03-08"
+  }
+```
+
 - Status codes include
 	- 200 - Ok
 	- 201 - Created
