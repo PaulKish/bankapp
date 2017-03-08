@@ -17,7 +17,7 @@ bankapp/
 ```
 
 # Instructions
-- Clone Repo into folder
+- Clone Repo into folder e.g `git clone https://github.com/PaulKish/bankapp.git bankapp`
 - Run `composer install` to install dependencies
 - Setup schema into a MySQL instance. Schema can be found in schema folder
 - Edit `application/config/database.php` to correspond to your db user/password
