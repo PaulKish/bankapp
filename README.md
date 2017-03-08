@@ -34,6 +34,12 @@ cd /path/to/bankapp/public
 php -S localhost:8000
 ```
 
+- Or if you have gitbash on Windows
+```
+$ cd /path/to/bankapp
+sh bin\server.sh
+```
+
 # Tests
 - Ensure you have PHPUnit setup in your system and is callable via phpunit on the terminal or cmd
 - To runs tests:
