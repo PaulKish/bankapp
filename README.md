@@ -20,7 +20,7 @@ bankapp/
 - Clone Repo into folder
 - Run `composer install` to install dependencies
 - Setup schema into a MySQL instance. Schema can be found in schema folder
-- Edit application/config/database.php to correspond to your db user/password
+- Edit `application/config/database.php` to correspond to your db user/password
 - If on a bash enabled system run:
 
 ```
