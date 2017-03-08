@@ -49,12 +49,16 @@ $ phpunit
 ## End points
 - / - default
 	- GET/POST methods allowed
+	- No parameters required
 - /balance - returns account balance
 	- GET/POST methods allowed
+	- No parameters required
 - /deposit - allows depositing to account
 	- POST method only
+	- amount needed - send as form-data / e.g `$_POST['amount']` should contain a numeric value
 - /withdraw - allows withdrawal
 	- POST method only
+	- amount needed - send as form-data / e.g `$_POST['amount']` should contain a numeric value
 
 ## Response structure
 
